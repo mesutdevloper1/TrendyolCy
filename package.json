@@ -1,0 +1,27 @@
+{
+    "name": "TrendyolCy",
+    "version": "1.0.0",
+    "description": "Trendyol alışveriş testi için Cypress ve Cucumber BDD kullanımı",
+    "main": "index.js",
+    "scripts": {
+        "test": "npx cypress run",
+        "cypress:open": "npx cypress open"
+    },
+    "dependencies": {
+        "@badeball/cypress-cucumber-preprocessor": "^5.0.0",
+        "cypress": "^13.5.0"
+    },
+    "devDependencies": {
+        "@badeball/cypress-cucumber-preprocessor": "^21.0.2",
+        "@bahmutov/cypress-esbuild-preprocessor": "^2.2.3",
+        "cypress": "^13.15.2",
+        "cypress-mochawesome-reporter": "^3.8.2",
+        "esbuild": "^0.24.0"
+    },
+    "cypress-cucumber-preprocessor": {
+        "nonGlobalStepDefinitions": true
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}

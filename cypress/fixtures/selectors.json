@@ -1,0 +1,29 @@
+{
+    "homePage": {
+      "electronicsCategory": "//a[normalize-space()='Elektronik']",
+      "computersSubcategory": "xp//article[7]//a[1]//span[1]//img[1]"
+    },
+    "productPage": {
+      "sortDropdown": "//div[@class='selected-order']",
+      "highestPriceOption": "//div[@data-fragment-name='Search']//li[3]",
+      "addToBasketSecondSelect":"//div[@title='KUWA KW912842440W I9-14900KF 128GB DDR5 4TB M.2 SSD 24GB RTX 4090 SIVI SOĞUTMA 1000W W11P']//div[@class='p-card-chldrn-cntnr card-border']//a//div[@class='image-container']//div[@class='image-container']//div//div[@class='p-card-img-wr']",
+      "addToBasketFirtSelect": "//div[@title='KUWA KW96422440W I9-14900KF 64GB DDR5 2TB M.2 SSD 24GB RTX 4090 SIVI SOĞUTMA 1000W W11P']//div[@class='p-card-chldrn-cntnr card-border']//a//div[@class='image-container']//div[@class='image-container']//div//div[@class='p-card-img-wr']",
+      "addToBasketButtons":"//div[@class='add-to-basket-button-text']",
+      
+    },
+    "basketPage": {
+      "BasketButtons":"//p[normalize-space()='Sepetim']",
+      "deleteSecondProduct": "(//i[@class='i-trash'])[2]",
+      "successMessage": "x//span[contains(text(),'Sepet başarıyla güncellendi')]",
+      "freeShippingText": "xp//p[normalize-space()='Kargo Bedava!']",
+      "totalPrice": "(//div[@class='pb-basket-item-price'])[1]",
+      "orderSummaryTotal": "//div[@title='279.300 TL']l",
+      "confirmBasketButton": "//body/div[@id='container']/div[@data-fragment-name='Basket']/div[@id='basket-app-container']/div[@id='pb-container']/aside[@class='sticky']/div[@class='pb-summary']/div[1]/a[1]/span[1]"
+    },
+    "checkoutPage": {
+      "guestCheckoutButton": "//button[normalize-space()='Üye Olmadan Devam Et']",
+      "SaveBtn":"//button[normalize-space()='Kaydet']",
+      "emailVerificationText": "//input[@placeholder='E-postanızı Giriniz']"
+    }
+  }
+  
